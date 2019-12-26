@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DB Term Project</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+<div class="container">
+    <div class="header">
+        <h3 class="text-muted">DB Term Project</h3>
+    </div>
+
+    <div class="jumbotron">
+        <h1>Sign In</h1>
+        <form action="/logedIn" class="form-insert" method="POST">
+            <input type="text" name="inputemail" id="inputlocal" class="form-control" placeholder="email" required autofocus>
+            <input type="password" name="inputpasswd" id="inputpasswd" class="form-control" placeholder="password" required autofocus>
+
+            <button type ="submit" id="btnlogin" class="btn btn-lg btn-primary btn-block"  >Sign In</button>
+        </form>
+        <br>
+        <li role="presentation"><a href="signup">Sign up</a></li>
+    </div>
+
+</div>
+</body>
+</html>

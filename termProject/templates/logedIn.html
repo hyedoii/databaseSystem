@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DB Term Project</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+<div class="container">
+    <div class="header">
+        <h3 class="text-muted">DB Term Project</h3>
+    </div>
+
+    <div class="jumbotron">
+        <h1>MY PAge</h1>
+        반갑습니다. {{nn}}님<br>
+        <br> 자주 가는 병원 목록 <br>
+        {{starlist}}
+
+        <br> 최근 간 병원 목록 <br>
+        {{lastlist}}
+
+        <div class="jumbotron">
+        <h1>Search Clinic</h1>
+        <a class="btn btn-lg btn-success" href="searchclinicname" role="button">search by name</a>
+        <a class="btn btn-lg btn-success" href="searchcliniclocation" role="button">search by location</a>
+        <a class="btn btn-lg btn-success" href="searchnearclinic" role="button">search near clinic</a>
+    </div>
+
+        <h1>Search Drugstore</h1>
+        <a class="btn btn-lg btn-success" href="searchdrugname" role="button">search by name</a>
+        <a class="btn btn-lg btn-success" href="searchdruglocation" role="button">search by location</a>
+        <a class="btn btn-lg btn-success" href="searchneardrug" role="button">search near drugstore</a>
+
+    </div>
+
+</div>
+</body>
+</html>

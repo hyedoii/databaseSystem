@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DB Term Project</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+<div class="container">
+    <div class="header">
+        <h3 class="text-muted">DB Term Project</h3>
+    </div>
+
+    <div class="jumbotron">
+        <h1>Sign Up</h1>
+        <form class="form-insert" method="POST">
+            <input type="text" name="inputname" id="inputname" class="form-control" placeholder="name" required autofocus>
+            <input type="text" name="inputemail" id="inputlocal" class="form-control" placeholder="email" >
+            <input type="password" name="inputpasswd" id="inputpasswd" class="form-control" placeholder="password" >
+            <input type="text" name="inputphone" id="inputphone" class="form-control" placeholder="phone" >
+            <input type="text" name="inputlat" id="inputlat" class="form-control" placeholder="lat" >
+            <input type="text" name="inputlng" id="inputlng" class="form-control" placeholder="lng" >
+            <select class="form-insert" name="inputposition">
+                <option value="patient"> 환자
+                <option value="clinic" selected> 병원
+                <option value="store"> 상점
+            </select>
+
+            <button type ="submit" id="btnsignup" class="btn btn-lg btn-primary btn-block"  >Next</button>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>

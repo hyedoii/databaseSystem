@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DB Term Project</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+<div class="container">
+    <div class="header">
+        <h3 class="text-muted">DB Term Project</h3>
+    </div>
+
+    <div class="jumbotron">
+        <h1>Search DrugStore by Location</h1>
+        <form class="form-insert" method="POST">
+            <input type="text" name="inputxpos" id="inputxpos" class="form-control" placeholder="xpos" required autofocus>
+            <input type="text" name="inputypos" id="inputypos" class="form-control" placeholder="ypos" required autofocus>
+
+            <button type ="submit" id="btnlogin" class="btn btn-lg btn-primary btn-block"  >Search</button>
+        </form>
+        <br>
+        {{resultlist}}
+    </div>
+
+</div>
+</body>
+</html>
